@@ -15,6 +15,7 @@
 		48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */; };
 		48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */; };
 		48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */; };
+		48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
+		48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */,
 				48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */,
 				48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */,
+				48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */,
 				48591DED2B26CEDA00E6D010 /* Assets.xcassets */,
 				48591DEF2B26CEDA00E6D010 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 				48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */,
 				48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */,
 				48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */,
+				48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */,
 				48591DF82B26CF2E00E6D010 /* LongPressGestureUIView.swift in Sources */,
 				48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */,
 			);
