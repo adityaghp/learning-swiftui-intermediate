@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F44382B64BE2200897086 /* GeometryReaderUIView.swift */; };
+		481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */; };
 		48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DE92B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift */; };
 		48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DEB2B26CED900E6D010 /* ContentView.swift */; };
 		48591DEE2B26CEDA00E6D010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48591DED2B26CEDA00E6D010 /* Assets.xcassets */; };
@@ -15,10 +17,13 @@
 		48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */; };
 		48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */; };
 		48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */; };
+		48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */; };
 		48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		481F44382B64BE2200897086 /* GeometryReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderUIView.swift; sourceTree = "<group>"; };
+		481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsUIView.swift; sourceTree = "<group>"; };
 		48591DE62B26CED900E6D010 /* LearningSwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48591DE92B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
 		48591DEB2B26CED900E6D010 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +33,7 @@
 		48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
+		48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderUIView.swift; sourceTree = "<group>"; };
 		48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +74,9 @@
 				48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */,
 				48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */,
 				48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */,
+				48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */,
+				481F44382B64BE2200897086 /* GeometryReaderUIView.swift */,
+				481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */,
 				48591DED2B26CEDA00E6D010 /* Assets.xcassets */,
 				48591DEF2B26CEDA00E6D010 /* Preview Content */,
 			);
@@ -154,9 +163,12 @@
 			files = (
 				48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */,
 				48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */,
+				481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */,
 				48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */,
+				481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */,
 				48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */,
 				48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */,
+				48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */,
 				48591DF82B26CF2E00E6D010 /* LongPressGestureUIView.swift in Sources */,
 				48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */,
 			);
