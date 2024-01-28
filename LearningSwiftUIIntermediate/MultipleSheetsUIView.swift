@@ -4,9 +4,12 @@
 //
 //  Created by Aditya Ghorpade on 27/01/24.
 //
+
 /*
- If we want to use multiple sheets in one screen there are different methods to do so.
+ If we want to use multiple sheets in one screen, there are different methods to do so.
+ The most reliable way is to use .sheet with $item to display multiple sheets using one screen.
  */
+
 // Multiple sheets
 // 1 - Using binding
 // 2 - Using multiple .sheet
@@ -21,30 +24,36 @@ struct RandomModel: Identifiable {
 
 struct MultipleSheetsUIView: View {
     
-    @State private var selectedModel: RandomModel = RandomModel(title: "STARTING TITLE")
-    @State private var showSheet: Bool = false
-    
+    @State private var selectedModel: RandomModel? = nil
+    //@State private var showSheet: Bool = false
+
     var body: some View {
-        VStack(spacing: 20) {
-            Button("BUTTON 1") {
-                selectedModel = RandomModel(title: "ONE")
-                showSheet.toggle()
+        ScrollView {
+            VStack(spacing: 20) {
+                ForEach(0..<50) { index in
+                    Button("BUTTON \(index)") {
+                        selectedModel = RandomModel(title: "\(index)")
+                        //showSheet.toggle()
+                    }
+                }
             }
-            
-            Button("BUTTON 2") {
-                selectedModel = RandomModel(title: "TWO")
-                showSheet.toggle()
+            .sheet(item: $selectedModel) { model in
+                SheetView(selectedModel: model)
             }
         }
-        .sheet(isPresented: $showSheet, content: {
-            SheetView(selectedModel: selectedModel)
-        })
+        
+        //.sheet(isPresented: $showSheet, content: {
+            //SheetView(selectedModel: selectedModel)
+        //})
     }
 }
 
 struct SheetView: View {
     
     let selectedModel: RandomModel
+    
+    //This variable is used for displaying sheet using binding the variable, uncomment this variable and use $selectedModel//
+    //@Binding var selectedModel: RandomModel
     
     var body: some View {
         Text(selectedModel.title)
