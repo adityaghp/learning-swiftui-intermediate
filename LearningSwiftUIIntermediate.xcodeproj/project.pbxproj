@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F44382B64BE2200897086 /* GeometryReaderUIView.swift */; };
 		481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */; };
+		484A11F42B678A2E00CC9F60 /* MaskUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A11F32B678A2E00CC9F60 /* MaskUIView.swift */; };
+		484A11F62B67F2CD00CC9F60 /* SoundsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */; };
 		48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DE92B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift */; };
 		48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DEB2B26CED900E6D010 /* ContentView.swift */; };
 		48591DEE2B26CEDA00E6D010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48591DED2B26CEDA00E6D010 /* Assets.xcassets */; };
@@ -17,6 +19,9 @@
 		48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */; };
 		48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */; };
 		48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */; };
+		48C410172B68CC490000DE33 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48C410152B68CC490000DE33 /* badum.mp3 */; };
+		48C410182B68CC490000DE33 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48C410162B68CC490000DE33 /* tada.mp3 */; };
+		48C4101A2B68CFBC0000DE33 /* HapticsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C410192B68CFBC0000DE33 /* HapticsUIView.swift */; };
 		48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */; };
 		48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +29,8 @@
 /* Begin PBXFileReference section */
 		481F44382B64BE2200897086 /* GeometryReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderUIView.swift; sourceTree = "<group>"; };
 		481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsUIView.swift; sourceTree = "<group>"; };
+		484A11F32B678A2E00CC9F60 /* MaskUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskUIView.swift; sourceTree = "<group>"; };
+		484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsUIView.swift; sourceTree = "<group>"; };
 		48591DE62B26CED900E6D010 /* LearningSwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48591DE92B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftUIIntermediateApp.swift; sourceTree = "<group>"; };
 		48591DEB2B26CED900E6D010 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +40,9 @@
 		48591DF92B26DBE400E6D010 /* MagnificationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFB2B26F45700E6D010 /* RotationGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureUIView.swift; sourceTree = "<group>"; };
 		48591DFD2B26F6CC00E6D010 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
+		48C410152B68CC490000DE33 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		48C410162B68CC490000DE33 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		48C410192B68CFBC0000DE33 /* HapticsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsUIView.swift; sourceTree = "<group>"; };
 		48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderUIView.swift; sourceTree = "<group>"; };
 		48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +87,10 @@
 				48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */,
 				481F44382B64BE2200897086 /* GeometryReaderUIView.swift */,
 				481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */,
+				484A11F32B678A2E00CC9F60 /* MaskUIView.swift */,
+				484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */,
+				48C410192B68CFBC0000DE33 /* HapticsUIView.swift */,
+				48C410142B68CBDE0000DE33 /* sounds */,
 				48591DED2B26CEDA00E6D010 /* Assets.xcassets */,
 				48591DEF2B26CEDA00E6D010 /* Preview Content */,
 			);
@@ -89,6 +103,15 @@
 				48591DF02B26CEDA00E6D010 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48C410142B68CBDE0000DE33 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				48C410152B68CC490000DE33 /* badum.mp3 */,
+				48C410162B68CC490000DE33 /* tada.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C410182B68CC490000DE33 /* tada.mp3 in Resources */,
+				48C410172B68CC490000DE33 /* badum.mp3 in Resources */,
 				48591DF12B26CEDA00E6D010 /* Preview Assets.xcassets in Resources */,
 				48591DEE2B26CEDA00E6D010 /* Assets.xcassets in Resources */,
 			);
@@ -161,11 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C4101A2B68CFBC0000DE33 /* HapticsUIView.swift in Sources */,
 				48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */,
 				48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */,
+				484A11F62B67F2CD00CC9F60 /* SoundsUIView.swift in Sources */,
 				481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */,
 				48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */,
 				481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */,
+				484A11F42B678A2E00CC9F60 /* MaskUIView.swift in Sources */,
 				48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */,
 				48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */,
 				48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */,
