@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F44382B64BE2200897086 /* GeometryReaderUIView.swift */; };
 		481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */; };
+		48305A6D2B6A824100522354 /* HashableProtocolUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48305A6C2B6A824100522354 /* HashableProtocolUIView.swift */; };
+		48305A6F2B6A8B6A00522354 /* SortFilterMapArrayUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48305A6E2B6A8B6A00522354 /* SortFilterMapArrayUIView.swift */; };
 		484A11F42B678A2E00CC9F60 /* MaskUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A11F32B678A2E00CC9F60 /* MaskUIView.swift */; };
 		484A11F62B67F2CD00CC9F60 /* SoundsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */; };
 		48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48591DE92B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift */; };
@@ -22,6 +24,7 @@
 		48C410172B68CC490000DE33 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48C410152B68CC490000DE33 /* badum.mp3 */; };
 		48C410182B68CC490000DE33 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 48C410162B68CC490000DE33 /* tada.mp3 */; };
 		48C4101A2B68CFBC0000DE33 /* HapticsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C410192B68CFBC0000DE33 /* HapticsUIView.swift */; };
+		48C4101C2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4101B2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift */; };
 		48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */; };
 		48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +32,8 @@
 /* Begin PBXFileReference section */
 		481F44382B64BE2200897086 /* GeometryReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderUIView.swift; sourceTree = "<group>"; };
 		481F443A2B64D92000897086 /* MultipleSheetsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsUIView.swift; sourceTree = "<group>"; };
+		48305A6C2B6A824100522354 /* HashableProtocolUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableProtocolUIView.swift; sourceTree = "<group>"; };
+		48305A6E2B6A8B6A00522354 /* SortFilterMapArrayUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMapArrayUIView.swift; sourceTree = "<group>"; };
 		484A11F32B678A2E00CC9F60 /* MaskUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskUIView.swift; sourceTree = "<group>"; };
 		484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsUIView.swift; sourceTree = "<group>"; };
 		48591DE62B26CED900E6D010 /* LearningSwiftUIIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUIIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +48,7 @@
 		48C410152B68CC490000DE33 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		48C410162B68CC490000DE33 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		48C410192B68CFBC0000DE33 /* HapticsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsUIView.swift; sourceTree = "<group>"; };
+		48C4101B2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsUIView.swift; sourceTree = "<group>"; };
 		48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderUIView.swift; sourceTree = "<group>"; };
 		48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +96,9 @@
 				484A11F32B678A2E00CC9F60 /* MaskUIView.swift */,
 				484A11F52B67F2CD00CC9F60 /* SoundsUIView.swift */,
 				48C410192B68CFBC0000DE33 /* HapticsUIView.swift */,
+				48C4101B2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift */,
+				48305A6C2B6A824100522354 /* HashableProtocolUIView.swift */,
+				48305A6E2B6A8B6A00522354 /* SortFilterMapArrayUIView.swift */,
 				48C410142B68CBDE0000DE33 /* sounds */,
 				48591DED2B26CEDA00E6D010 /* Assets.xcassets */,
 				48591DEF2B26CEDA00E6D010 /* Preview Content */,
@@ -189,14 +198,17 @@
 				48C4101A2B68CFBC0000DE33 /* HapticsUIView.swift in Sources */,
 				48591DFA2B26DBE400E6D010 /* MagnificationGestureUIView.swift in Sources */,
 				48591DEC2B26CED900E6D010 /* ContentView.swift in Sources */,
+				48C4101C2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift in Sources */,
 				484A11F62B67F2CD00CC9F60 /* SoundsUIView.swift in Sources */,
 				481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */,
 				48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */,
 				481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */,
 				484A11F42B678A2E00CC9F60 /* MaskUIView.swift in Sources */,
+				48305A6D2B6A824100522354 /* HashableProtocolUIView.swift in Sources */,
 				48591DEA2B26CED900E6D010 /* LearningSwiftUIIntermediateApp.swift in Sources */,
 				48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */,
 				48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */,
+				48305A6F2B6A8B6A00522354 /* SortFilterMapArrayUIView.swift in Sources */,
 				48591DF82B26CF2E00E6D010 /* LongPressGestureUIView.swift in Sources */,
 				48591DFC2B26F45700E6D010 /* RotationGestureUIView.swift in Sources */,
 			);
