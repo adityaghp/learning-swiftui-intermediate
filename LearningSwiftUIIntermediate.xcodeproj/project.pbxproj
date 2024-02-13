@@ -29,6 +29,7 @@
 		48C4101A2B68CFBC0000DE33 /* HapticsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C410192B68CFBC0000DE33 /* HapticsUIView.swift */; };
 		48C4101C2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C4101B2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift */; };
 		48D3BA2D2B638B3F000AD330 /* ScrollViewReaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */; };
+		48ED69782B7BB4B000E467A0 /* EscapingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ED69772B7BB4B000E467A0 /* EscapingUIView.swift */; };
 		48FA85802B5FC80D009A5032 /* DragGestureUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		48C410192B68CFBC0000DE33 /* HapticsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsUIView.swift; sourceTree = "<group>"; };
 		48C4101B2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalPushNotificationsUIView.swift; sourceTree = "<group>"; };
 		48D3BA2C2B638B3F000AD330 /* ScrollViewReaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderUIView.swift; sourceTree = "<group>"; };
+		48ED69772B7BB4B000E467A0 /* EscapingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingUIView.swift; sourceTree = "<group>"; };
 		48FA857F2B5FC80D009A5032 /* DragGestureUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				488FFC8A2B77C4C800E174CE /* BackgroundThreadsUIView.swift */,
 				48B1274B2B792B21008A612F /* WeakSelfUIView.swift */,
 				484BF7D02B79E1F600B8EBA8 /* TypeAliasUIView.swift */,
+				48ED69772B7BB4B000E467A0 /* EscapingUIView.swift */,
 				48C410142B68CBDE0000DE33 /* sounds */,
 				48591DED2B26CEDA00E6D010 /* Assets.xcassets */,
 				48591DEF2B26CEDA00E6D010 /* Preview Content */,
@@ -210,6 +213,7 @@
 				48C4101C2B692FCF0000DE33 /* LocalPushNotificationsUIView.swift in Sources */,
 				484A11F62B67F2CD00CC9F60 /* SoundsUIView.swift in Sources */,
 				481F44392B64BE2200897086 /* GeometryReaderUIView.swift in Sources */,
+				48ED69782B7BB4B000E467A0 /* EscapingUIView.swift in Sources */,
 				488FFC8B2B77C4C800E174CE /* BackgroundThreadsUIView.swift in Sources */,
 				48591DFE2B26F6CC00E6D010 /* DragGestureUIView.swift in Sources */,
 				481F443B2B64D92000897086 /* MultipleSheetsUIView.swift in Sources */,
